@@ -29,7 +29,7 @@ import brand from "../../assets/brand.png";
 ---
 
 <div
-  class="bg-[rgba(255,255,255,0.92)] fixed w-full top-0 z-10 py-[30px] h-auto flex justify-center"
+  class="bg-[#fff] fixed w-full top-0 z-10 py-[30px] h-auto flex justify-center"
 >
   <nav
     aria-label="Main Navigation"
@@ -40,14 +40,14 @@ import brand from "../../assets/brand.png";
     <!-- Brand -->
     <div class="pl-4 xl:flex-none">
       <a href="#home">
-        <Image src={brand} alt="Brand Logo" class="w-[25%]" loading="eager" />
+        <Image src={brand} alt="Brand Logo" class="w-[70px]" loading="eager" />
       </a>
     </div>
 
     <!-- Nav Menu -->
     <div
       id="navmenu"
-      class=" w-full absolute top-full z-10 xl:static xl:flex xl:flex-grow xl:items-center xl:justify-center overflow-hidden transition-height duration-500 h-0 xl:h-auto"
+      class="bg-[#fff] w-full absolute top-full z-10 xl:static xl:flex xl:flex-grow xl:items-center xl:justify-center overflow-hidden transition-height duration-500 h-0 xl:h-auto"
     >
       <!-- Nav Links -->
       <ul class="xl:flex xl:flex-grow xl:justify-center xl:gap-10">
@@ -65,12 +65,10 @@ import brand from "../../assets/brand.png";
       </ul>
 
       <!-- Login -->
-       <!--
       <div class="flex xl:flex-row xl:items-center px-4 xl:gap-4 flex-col">
         <button class="btn-secondary">Request a quote</button>
       </div>
     </div>
-    -->
 
     <!-- Hamburger menu -->
     <button
