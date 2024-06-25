@@ -20,7 +20,7 @@
   }
 
   :root {
-    --green: #b9ff66;
+    --green: #b59017d7;
     --black: rgb(0, 0, 0);
     --dark: #191a23;
     --white: #f3f3f3;
@@ -35,6 +35,8 @@
 
     body {
       font-size: 20px;
+      background-color: #ffffff;
+      /*color: white;*/
     }
 
     p {
@@ -60,6 +62,15 @@
     h4 {
       font-size: 1rem;
       font-weight: 500;
+    }
+
+    .hero-opacity {
+      background-color: rgba(0,0,0);
+      height: 54vh;
+    }
+
+    .white {
+      color: #ffffff;
     }
 
     @media (max-width: 640px) {
